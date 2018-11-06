@@ -133,7 +133,7 @@ li{
 	color: #262626;
 }
 
-.story_p{
+._p{
 	font-size: 15px;
 	line-height: 1.5em;
 	color: #595959;
@@ -156,4 +156,40 @@ video{
 
 .filt_video{
 	height: 80vh;
+}
+
+.expertise_title_all_text{
+	text-align: center;
+	margin-top: 60px;
+}
+
+.expertise_title{
+	color: #262626;
+	margin: 0;
+}
+
+.expertise_p{
+	margin-top: 7px;
+	margin-bottom: 13px;
+}
+
+.copy{
+	background-color: #404040;
+}
+
+.expertise_grid_wrap{
+	display: grid;
+	grid-template-columns:repeat(3, 1fr);
+	grid-row-gap: 50px;
+	text-align: center;
+	width: 1000px;
+	margin: 80px auto;
+}
+
+.block_img{
+	height: 50px;
+}
+
+.block_h4{
+	color: #262626;
 }
