@@ -30,6 +30,8 @@ h1,h2{
 	z-index: 1;
 }
 
+/* z-index was used just for fun */
+
 .z-index_fix{
 	position: relative;
 	z-index: 2;
