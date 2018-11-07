@@ -84,10 +84,13 @@ li{
 	width: 50px;
 }
 
+p{
+	font-size: 15px;
+}
+
 .title_p{
 	margin: 30px auto;
 	width: 760px;
-	font-size: 15px;
 	line-height: 1.5em;
 	color: #c0c0c0;
 }
@@ -116,7 +119,7 @@ li{
 .story_wrap{
 	display: flex;
 	justify-content: center;
-	margin-top: 40px;
+	margin-top: 60px;
 	margin-left: 95px;
 }
 
@@ -134,7 +137,6 @@ li{
 }
 
 ._p{
-	font-size: 15px;
 	line-height: 1.5em;
 	color: #595959;
 }
@@ -145,17 +147,17 @@ li{
 }
 
 .video_section{
-	margin-top: 60px;
+	margin-top: 90px;
 }
 
 video{
 	width: 100%;
-	height: 80vh;
+	height: 90vh;
 	object-fit: fill;
 }
 
 .filt_video{
-	height: 80vh;
+	height: 90vh;
 }
 
 .expertise_title_all_text{
@@ -169,7 +171,6 @@ video{
 }
 
 .expertise_p{
-	margin-top: 7px;
 	margin-bottom: 13px;
 }
 
@@ -192,4 +193,53 @@ video{
 
 .block_h4{
 	color: #262626;
+}
+
+#our_team{
+	background: url(../img/bgImg_3.png) no-repeat center top / cover;
+	height: 90vh;
+}
+
+.team_title{
+	margin-top: 55px;
+	margin-bottom: 0;
+}
+
+.wrap_flex_out_team{
+	display: flex;
+	justify-content: space-around;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.put_photo{
+	width: 220px;
+	height: 250px;
+	background-color: #fff;
+}
+
+.block_team{
+	margin-top: 40px;
+	width: 220px;
+	height: 330px;
+	outline: 1px solid #fff;
+}
+
+.out_team_text_header{
+	margin-bottom: 5px;
+}
+
+.out_team_text_header_2{
+	font-size: 13.5px;
+	margin: 0;
+	font-weight: 300;
+	color: #bfbfbf;
+}
+
+.team_p_2{
+	margin-top: 45px;
+}
+
+.team_button{
+	margin-top: 4.5px;
 }
