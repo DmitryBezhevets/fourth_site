@@ -20,6 +20,10 @@ h1,h2{
 	font-family: 'Playfair Display', serif;
 }
 
+h2{
+	color: #262626;
+}
+
 .filter{
 	background-color: #311d5e;
 	background: linear-gradient(to right, #09052f, #311d5e);
@@ -134,10 +138,6 @@ p{
 	margin-left: 85px;
 }
 
-.story_title{
-	color: #262626;
-}
-
 ._p{
 	line-height: 1.5em;
 	color: #595959;
@@ -164,11 +164,10 @@ video{
 
 .expertise_title_all_text{
 	text-align: center;
-	margin-top: 60px;
+	margin-top: 40px;
 }
 
 .expertise_title{
-	color: #262626;
 	margin: 0;
 }
 
@@ -203,8 +202,9 @@ video{
 }
 
 .team_title{
-	margin-top: 55px;
+	margin-top: 35px;
 	margin-bottom: 0;
+	color: #fff;
 }
 
 .wrap_flex_out_team{
@@ -244,4 +244,27 @@ video{
 
 .team_button{
 	margin-top: 4.5px;
+}
+
+.out_work_title{
+	margin-top: 40px;
+}
+
+.our_work_wrapper{
+	margin: 0 auto;
+	text-align: center;
+}
+
+.grid_wrap_img_work{
+	margin-top: 30px;
+	display: grid;
+	grid-template-columns:repeat(4, 250px);
+	grid-gap: 20px;
+	justify-content: center;
+}
+
+.our_work_photo{
+	background-color: #311d5e;
+	width: 250px;
+	height: 250px;
 }
